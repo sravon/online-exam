@@ -33,19 +33,19 @@ export default function Question() {
                 <h5 className='text-xl'>2. This is question 2 ?</h5>
                 <div className='p-2'>
                     <div>
-                        <input type="radio" id="html" name="fav_language" value="HTML"/>
+                        <input type="radio" id="html" name="fav_1" value="2.1"/>
                         <label htmlFor="html">Option 1</label>
                     </div>
                     <div>
-                        <input type="radio" id="html" name="fav_language" value="HTML"/>
+                        <input type="radio" id="html" name="fav_1" value="2.2"/>
                         <label htmlFor="html">Option 2</label>
                     </div>
                     <div>
-                        <input type="radio" id="html" name="fav_language" value="HTML"/>
+                        <input type="radio" id="html" name="fav_1" value="2.3"/>
                         <label htmlFor="html">Option 3</label>
                     </div>
                     <div>
-                        <input type="radio" id="html" name="fav_language" value="HTML"/>
+                        <input type="radio" id="html" name="fav_1" value="2.4"/>
                         <label htmlFor="html">Option 4</label>
                     </div>
                 </div>
@@ -54,19 +54,19 @@ export default function Question() {
                 <h5 className='text-xl'>3. This is question 3 ?</h5>
                 <div className='p-2'>
                     <div>
-                        <input type="radio" id="html" name="fav_language" value="HTML"/>
+                        <input type="radio" id="html" name="fav_3" value="3.1"/>
                         <label htmlFor="html">Option 1</label>
                     </div>
                     <div>
-                        <input type="radio" id="html" name="fav_language" value="HTML"/>
+                        <input type="radio" id="html" name="fav_3" value="3.2"/>
                         <label htmlFor="html">Option 2</label>
                     </div>
                     <div>
-                        <input type="radio" id="html" name="fav_language" value="HTML"/>
+                        <input type="radio" id="html" name="fav_3" value="3.3"/>
                         <label htmlFor="html">Option 3</label>
                     </div>
                     <div>
-                        <input type="radio" id="html" name="fav_language" value="HTML"/>
+                        <input type="radio" id="html" name="fav_3" value="3.4"/>
                         <label htmlFor="html">Option 4</label>
                     </div>
                 </div>
@@ -75,19 +75,19 @@ export default function Question() {
                 <h5 className='text-xl'>4. This is question 4 ?</h5>
                 <div className='p-2'>
                     <div>
-                        <input type="radio" id="html" name="fav_language" value="HTML"/>
+                        <input type="radio" id="html" name="fav_4" value="4.1"/>
                         <label htmlFor="html">Option 1</label>
                     </div>
                     <div>
-                        <input type="radio" id="html" name="fav_language" value="HTML"/>
+                        <input type="radio" id="html" name="fav_4" value="4.2"/>
                         <label htmlFor="html">Option 2</label>
                     </div>
                     <div>
-                        <input type="radio" id="html" name="fav_language" value="HTML"/>
+                        <input type="radio" id="html" name="fav_4" value="4.3"/>
                         <label htmlFor="html">Option 3</label>
                     </div>
                     <div>
-                        <input type="radio" id="html" name="fav_language" value="HTML"/>
+                        <input type="radio" id="html" name="fav_4" value="4.4"/>
                         <label htmlFor="html">Option 4</label>
                     </div>
                 </div>
@@ -96,19 +96,19 @@ export default function Question() {
                 <h5 className='text-xl'>5. This is question 5 ?</h5>
                 <div className='p-2'>
                     <div>
-                        <input type="radio" id="html" name="fav_language" value="HTML"/>
+                        <input type="radio" id="html" name="fav_5" value="5.1"/>
                         <label htmlFor="html">Option 1</label>
                     </div>
                     <div>
-                        <input type="radio" id="html" name="fav_language" value="HTML"/>
+                        <input type="radio" id="html" name="fav_5" value="5.2"/>
                         <label htmlFor="html">Option 2</label>
                     </div>
                     <div>
-                        <input type="radio" id="html" name="fav_language" value="HTML"/>
+                        <input type="radio" id="html" name="fav_5" value="5.4"/>
                         <label htmlFor="html">Option 3</label>
                     </div>
                     <div>
-                        <input type="radio" id="html" name="fav_language" value="HTML"/>
+                        <input type="radio" id="html" name="fav_5" value="5.3"/>
                         <label htmlFor="html">Option 4</label>
                     </div>
                 </div>

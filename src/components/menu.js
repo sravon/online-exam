@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function Menu() {
+    const [menu, setMenu] = useState(false);
+
     return (
         <nav className="relative container mx-auto p-6">
             <div className="flex items-center justify-between">
@@ -18,14 +20,13 @@ export default function Menu() {
                     <a href="" className="px-8 py-3 font-bold
                     text-white bg-cyan rounded-full hover:opacity-70">Sign Up</a>
                 </div>
-                <button id="menu-btn" className="block hamburger lg:hidden focus:outline-none">
+                <button onClick={()=> setMenu(!menu)} className="block hamburger lg:hidden focus:outline-none">
                     <span className="hamburger-top"></span>
                     <span className="hamburger-middle"></span>
                     <span className="hamburger-bottom"></span>
                 </button>
             </div>
-            <div id="menu" className="absolute hidden p-6 rounded-lg bg-darkViolet left-6
-            right-6 top-20 z-100">
+            <div id="menu" className={(menu?"flex":"hidden")+" absolute p-6 rounded-lg bg-darkViolet left-6 right-6 top-20 z-100"}>
                 <div className="flex flex-col items-center justify-center w-full space-y-6
                 font-bold text-white rounded-sm">
                     <a href="#" className="w-full text-center">Features</a>
